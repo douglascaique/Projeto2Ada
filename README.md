@@ -5,5 +5,5 @@
 - Navegação precisa funcionar (da página principal para outras páginas, e na página principal em si);
 - O site deve estar otimizado para SEO e acessibilidade.
 
-# EXTRA
+## EXTRA
 Site inteiro feito com Bootstrap.
