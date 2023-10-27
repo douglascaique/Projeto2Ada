@@ -1,4 +1,4 @@
-# Projeto2Ada
+# ADA TECH - VEM SER TECH - PROJETO 2 - INDIVIDUAL
 
 - Catálogo igual ao do trabalho principal 01, porém responsivo;
 - Criar um formulário de registro para o catálogo digital;
