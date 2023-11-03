@@ -104,6 +104,94 @@ header {
 
 
 
+  /* Estilos para a tabela */
+#tabela {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f4f4f4;
+    border-radius: 15px;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  caption {
+    font-size: 24px;
+    color: #333;
+    margin: 10px;
+  }
+  
+  thead {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  thead th {
+    padding: 10px;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #fff;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #f4f4f4;
+  }
+  
+  tbody td {
+    padding: 10px;
+  }
+  
+  table, th, td {
+    border: 1px solid #333;
+    border-collapse: collapse;
+  }
+
+/* Estilos para o footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  footer nav {
+    margin-top: 20px;
+  }
+  
+  footer nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  footer nav a:hover {
+    text-decoration: underline;
+  }
+  
+  footer i {
+    font-size: 24px;
+    color: #fff;
+    margin: 0 10px;
+  }
+  
+  footer p {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  
+  /* Estilize a fonte e o estilo dos ícones conforme necessário */
+  
+  
+
 
   /* media queries */
    /* Estilos para tablet */
@@ -117,7 +205,6 @@ header {
       margin-top: 20px;
     }
   }
-  
 
    @media screen and (max-width: 768px) {
     section {
@@ -129,6 +216,7 @@ header {
       margin: 20px 0;
     }
   }
+
 
   
   /* Estilos para celular */
