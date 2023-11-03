@@ -2,28 +2,148 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-header{
+header {
     display: flex;
     justify-content: space-between;
-    background-color: azure;
+    align-items: center;
     padding: 20px;
-}
-
-header span{
-    padding-left: 50px;
-}
-
-header nav{
-    padding-right: 50px;
-}
-
-section {
+    background-color: #fff;
+  }
+  
+  nav {
     display: flex;
-}
-.imghero{
-    justify-content: flex-end;
-}
+    gap: 20px;
+  }
 
 
+
+  section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  section div {
+    flex: 1;
+    text-align: center;
+  }
+  
+  section .imghero {
+    flex: 1;
+  }
+  
+
+
+  #menu {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #menu h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #menu section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  #menu section div {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #menu section div img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  #menu section div h3 {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  #menu section div p {
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  #menu section div button {
+    background-color: #f4f4f4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #menu section div button:hover {
+    background-color: #333;
+    color: #fff;
+  }
+
+
+
+
+  /* media queries */
+   /* Estilos para tablet */
+   @media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    nav {
+      margin-top: 20px;
+    }
+  }
+  
+
+   @media screen and (max-width: 768px) {
+    section {
+      flex-direction: column;
+    }
+  
+    section div {
+      text-align: center;
+      margin: 20px 0;
+    }
+  }
+
+  
+  /* Estilos para celular */
+  @media screen and (max-width: 480px) {
+    nav {
+      flex-direction: column;
+    }
+  
+    nav a {
+      margin: 5px 0;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    section div {
+      margin: 10px 0;
+    }
+  }
